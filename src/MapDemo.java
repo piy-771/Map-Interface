@@ -7,7 +7,8 @@ public class MapDemo {
         map.put("Java",true);
         map.put("ion",12.02);
         map.put("Python","First dup");
-        System.out.println(map);
+        System.out.println((map.get("ion")));
+        System.out.println(map.get("Java"));
 
         Set set1= map.keySet();
         System.out.println("Keys = " + set1);
